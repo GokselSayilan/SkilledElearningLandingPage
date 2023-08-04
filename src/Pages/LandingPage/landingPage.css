@@ -1,0 +1,7 @@
+.landingPage {
+    position: relative;
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}

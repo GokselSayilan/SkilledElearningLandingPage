@@ -1,0 +1,282 @@
+@media (min-width:1700px) {
+
+    .feed {
+        margin-top: 240px;
+        height: 900px;
+        width: 100%;
+        background-image: linear-gradient(#FFFFFF, #F0F1FF);
+        position: relative;
+    }
+
+    .feedWrapper {
+        padding: 0 !important;
+        padding-left: 165px !important;
+        position: unset !important;
+        transform: unset !important;
+        left: unset !important;
+        width: 100%;
+        display: flex !important;
+        justify-content: flex-start !important;
+
+    }
+
+    .feedCards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 30px;
+        width: 1000px !important;
+        justify-content: unset !important;
+
+    }
+}
+
+@media (min-width:1000px) {
+    .feed {
+        margin-top: 240px;
+        height: 900px;
+        width: 100%;
+        background-image: linear-gradient(#FFFFFF, #F0F1FF);
+        position: relative;
+    }
+
+    .feedWrapper {
+        padding: 0 165px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .feedCards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .feedMainCard {
+        width: 350px;
+        height: 325px;
+        padding: 64px 32px 40px 32px;
+        background-image: linear-gradient(#FF6F48, #F02AA6);
+        border-radius: 20px;
+    }
+
+    .feedCard {
+        width: 350px;
+        height: 325px;
+        padding: 64px 32px 40px 32px;
+        border-radius: 20px;
+        box-shadow: #e6e7ff 0px 20px 24px;
+        position: relative;
+        margin-bottom: 56px;
+    }
+
+    .feedCardMainTitle {
+        font-size: 32px;
+        color: white;
+        font-weight: 800;
+
+    }
+
+    .feedCardImg {
+        position: absolute;
+        left: 32px;
+        top: -30px;
+    }
+
+    .feedCardTitle {
+        color: #13183F;
+        margin-bottom: 24px;
+        font-weight: 800;
+
+    }
+
+    .feedCardDesc {
+        color: #83869A;
+        margin-bottom: 24px;
+        line-height: 28px;
+    }
+
+    .feedCardLink {
+        color: #F74780;
+        font-weight: bold;
+        cursor: pointer;
+        position: absolute;
+        bottom: 40px;
+        left: 32px;
+    }
+
+    .feedCardLink:hover {
+        opacity: 60%;
+    }
+}
+
+@media (max-width:1000px) {
+    .feed {
+        margin-top: 180px;
+        height: 1000px;
+        width: 100%;
+        background-image: linear-gradient(#FFFFFF, #F0F1FF);
+        position: relative;
+    }
+    
+    .feedWrapper {
+        padding: 0 40px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    
+    }
+    
+    .feedCards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    .feedMainCard {
+        width: 350px;
+        height: 260px;
+        padding: 56px 22px 32px 32px;
+        background-image: linear-gradient(#FF6F48, #F02AA6);
+        border-radius: 20px;
+    }
+    
+    .feedCard {
+        width: 350px;
+        height: 260px;
+        padding: 56px 22px 32px 32px;
+        border-radius: 20px;
+        box-shadow: #e6e7ff 0px 20px 24px;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    
+    .feedCardMainTitle {
+        font-size: 24px;
+        color: white;
+        font-weight: 800;
+    }
+    
+    .feedCardImg {
+        position: absolute;
+        left: 32px;
+        top: -30px;
+    }
+    
+    .feedCardTitle {
+        color: #13183F;
+        margin-bottom: 16px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    
+    .feedCardDesc{
+        color: #83869A;
+        margin-bottom: 24px;
+        line-height: 28px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .feedCardLink{
+        color: #F74780;
+        font-weight: bold;
+        cursor: pointer;
+        position: absolute;
+        bottom: 32px;
+        left: 32px;
+    }
+}
+
+@media (max-width:500px) {
+    .feed {
+        margin-top: 0;
+        height: 1900px;
+        width: 100%;
+        background-image: linear-gradient(#FFFFFF, #f2f3ff);
+        position: relative;
+    }
+    
+    .feedWrapper {
+        padding: 0 16px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    
+    }
+    
+    .feedCards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .feedMainCard {
+        width: 350px;
+        height: 120px;
+        padding: 28px;
+        background-image: linear-gradient(#FF6F48, #F02AA6);
+        border-radius: 20px;
+        margin-bottom: 40px;
+   
+
+    }
+    
+    .feedCard {
+        width: 350px;
+        height: 280px;
+        padding: 56px 28px 28px 32px;
+        border-radius: 20px;
+        box-shadow: #e6e7ff 0px 20px 24px;
+        position: relative;
+        margin-bottom: 40px;
+        background-color: white;
+    }
+    
+    .feedCardMainTitle {
+        font-size: 24px;
+        color: white;
+        font-weight: 800;
+        line-height: 32px;
+    }
+    
+    .feedCardImg {
+        position: absolute;
+        left: 32px;
+        top: -30px;
+    }
+    
+    .feedCardTitle {
+        color: #13183F;
+        margin-bottom: 16px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    
+    .feedCardDesc{
+        color: #83869A;
+        margin-bottom: 24px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .feedCardLink{
+        color: #F74780;
+        font-weight: bold;
+        cursor: pointer;
+        position: absolute;
+        bottom: 32px;
+        left: 28px;
+    }
+}

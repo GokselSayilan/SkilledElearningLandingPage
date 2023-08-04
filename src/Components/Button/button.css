@@ -1,0 +1,31 @@
+.button {
+    height: 55px;
+    border: none;
+    border-radius: 27.5px;
+    padding: 0 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+}
+
+.black {
+    background-color: #13183F;
+}
+
+.orange {
+    background-image: linear-gradient(#FF6F48, #F02AA6);
+}
+
+.purple {
+    background-image: linear-gradient(#a748ff, #F02AA6);
+}
+
+
+
+@media (min-width:1000px) {
+    .button:hover {
+        opacity: 60%;
+    }
+}

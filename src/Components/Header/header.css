@@ -1,0 +1,166 @@
+
+@media (min-width:1700px) {
+    .headerWrapper {
+        padding-left: 165px;
+        display: flex;
+
+    }
+
+    .headerLeft {
+        margin-top: 165px;
+        width: 700px !important;
+        height: 500px !important;
+    }
+
+    .headerLeftTitle {
+        margin-bottom: 30px;
+        font-size: 80px !important;
+        line-height: 100px !important;
+    }
+
+    .headerLeftDesc {
+        margin-bottom: 40px;
+        color: #83869A;
+        font-size: 30px !important;
+        line-height: 50px !important;
+    }
+
+
+    .headerRightImg {
+        position: absolute;
+        right: 0;
+        top: -165px;
+        right: -150px !important;
+        z-index: -5;
+        width: 1100px !important;
+    }
+
+}
+
+@media (min-width:1000px) {
+    
+    .headerWrapper {
+        padding-left: 165px;
+        display: flex;
+
+    }
+
+    .headerLeft {
+        margin-top: 165px;
+        width: 460px;
+        height: 360px;
+    }
+
+    .headerLeftTitle {
+        margin-bottom: 30px;
+    }
+
+    .headerLeftDesc {
+        margin-bottom: 40px;
+        color: #83869A;
+    }
+
+
+    .headerRightImg {
+        position: absolute;
+        right: 0;
+        top: -165px;
+        right: -350px;
+        z-index: -5;
+    }
+
+    .headerRightImgTablet {
+        display: none;
+
+    }
+
+    .headerRightImgMobile {
+        display: none;
+    }
+}
+
+@media (max-width:1000px) {
+    .headerWrapper {
+        padding-left: 40px;
+        display: flex;
+    }
+
+    .headerLeft {
+        margin-top: 100px;
+        width: 400px;
+        height: 290px;
+    }
+
+    .headerLeftTitle {
+        margin-bottom: 25px;
+        font-size: 40px;
+
+    }
+
+    .headerLeftDesc {
+        margin-bottom: 25px;
+        color: #83869A;
+        font-size: 16px;
+    }
+
+    .headerRightImgTablet {
+        position: absolute;
+        right: 0;
+        top: -75px;
+        right: -300px;
+        z-index: -5;
+    }
+
+    .headerRightImg {
+       display: none;
+    }
+
+    
+    .headerRightImgMobile {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    .headerWrapper {
+        padding: 0 16px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .headerLeft {
+        margin-top: 36px;
+        width: 375px;
+        height: auto;
+    }
+
+    .headerLeftTitle {
+        margin-bottom: 24px;
+        line-height: unset;
+    }
+
+    .headerLeftDesc {
+        margin-bottom: 24px;
+        color: #83869A;
+    }
+
+    .headerRight {
+        display: flex;
+        justify-content: center;
+    }
+
+     .headerRightImgMobile {
+         display: block;
+         width: 450px;
+         margin-top: 40px;
+     }
+
+     .headerRightImg {
+        display: none;
+    }
+
+    .headerRightImgTablet {
+        display: none;
+     }
+}
